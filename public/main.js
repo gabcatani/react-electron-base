@@ -16,13 +16,8 @@ function createWindow() {
     }
   })
 
-  win.loadURL(
-    isDev
-      ? 'http://localhost:3000'
-      : `file://${path.join(__dirname, '../build/index.html')}`
-  )
+    window.loadURL( 'http://www.unoesc.edu.br') ;
 }
-
 app.on('ready', createWindow)
 
 // Quit when all windows are closed.
